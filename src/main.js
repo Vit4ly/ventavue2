@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 import Vuelidate from "vuelidate/src";
 
-Vue.config.productionTip = false
+Vue.config.productionTip = true
 Vue.use(Vuelidate)
 
 new Vue({
